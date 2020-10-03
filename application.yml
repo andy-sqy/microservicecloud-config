@@ -1,18 +1,18 @@
 spring:
-	profiles:
-	 active:
-	 -dev
-	 
+  profiles:
+   active:
+   - dev
+   
 ---
 spring:
-	profiles: dev #开发环境
-	application:
-		name: microservice-config-atguigu-dev
+  profiles: dev #开发环境
+  application:
+    name: microservice-config-atguigu-dev
 ---
 
 spring:
-	profiles:test #测试环境
-	application:
-		name: microservice-config-atguigu-test
-		
+  profiles: test #测试环境
+  application:
+    name: microservice-config-atguigu-test
+    
 # 请保存为utf8格式
